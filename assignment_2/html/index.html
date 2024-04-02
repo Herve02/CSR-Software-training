@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury-Home</title>
+    <link rel="stylesheet" href="../statics/style.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <!-- header section starts -->
+    <header class="container">
+        <nav id="navbar">
+            <img src="../statics/imgs/Luxury.png" alt="" srcset="">
+            <ul id="menus">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about us</a></li>
+                <li><a href="#services">sevices</a></li>
+                <li><a href="Blogs">blogs</a></li>
+                <li class="contact"><a href="#contacts" class="contacts">contacts</a></li>
+            </ul>
+
+
+            <div class="menu_bar" onclick="togleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+       
+           
+        </nav>
+    </header>
+
+    <!-- hero section starts -->
+    <section class="hero container" id="home">
+        <div class="hero_content">
+            <h4>TRENDY COLLECTIONS</h4>
+            <h2>Make your <span>interior</span> unique & modern</h2>
+            <p>Turn your room with luxury into a lot more minimalist and modern.</p>
+            <a href="#">Discover More</a>
+        </div>
+        <div class="img"><img src="../statics/imgs/pngwing 2.png" alt="" srcset=""></div>
+    </section>
+    <!-- trending product section starts-->
+    <section class="trending_products container">
+        <div class="intro">
+            <h2>Trending <span>Products</span></h2>
+            <p>Turn your room with luxury into a lot more minimalist and modern.</p>
+        </div>
+
+        <div class="products">
+            <div class="item item1">
+                <div class="item_description">
+                    <div class="descriptions">
+                        <h4>Long Sofa</h4>
+                        <p>Structure almost highlights</p>
+                    </div>                    
+                    <a href="#">SHOP NOW</a>
+                </div>
+                <img src="../statics/imgs/pngwing 2 (1).png" alt="">
+            </div>
+            <div class="item item2">
+                <div class="item_description">
+                    <div class="descriptions">
+                        <h4>Long Sofa</h4>
+                        <p>Structure almost highlights</p>
+                    </div> 
+                    <a href="#" class="cta1">SHOP NOW</a>
+                </div>
+                <img src="../statics/imgs/pngwing 1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- why choose us section -->
+    <section class="container why_choose_us" id="services">
+        <div class="contents">
+            <div class="intro">
+                <h2>Why Choose <span>Us</span></h2>
+                <p>Donec vitae odio quis nisl dapibus malesuada. 
+                   Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+                </p>
+            </div>
+
+            <div class="blocks">
+                <div class="block">
+                    <svg width="48" height="38" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="32" cy="21.5" r="16" fill="#f8d2c1bd"/>
+                        <path d="M4 16.5H16V18.5H4V16.5ZM2 11.5H12V13.5H2V11.5Z" fill="black"/>
+                        <path d="M29.919 17.106L26.919 10.106C26.842 9.92608 26.7139 9.77273 26.5505 9.665C26.3872 9.55727 26.1957 9.49989 26 9.5H23V7.5C23 7.23478 22.8947 6.98043 22.7071 6.79289C22.5196 6.60536 22.2652 6.5 22 6.5H6.00003V8.5H21V21.056C20.5444 21.3206 20.1456 21.6728 19.8267 22.0922C19.5078 22.5117 19.2751 22.9902 19.142 23.5H12.858C12.6146 22.5573 12.0358 21.7358 11.23 21.1894C10.4242 20.643 9.44684 20.4092 8.48103 20.5319C7.51522 20.6546 6.6273 21.1253 5.98371 21.8558C5.34012 22.5863 4.98505 23.5264 4.98505 24.5C4.98505 25.4736 5.34012 26.4137 5.98371 27.1442C6.6273 27.8747 7.51522 28.3454 8.48103 28.4681C9.44684 28.5908 10.4242 28.357 11.23 27.8106C12.0358 27.2642 12.6146 26.4427 12.858 25.5H19.142C19.3596 26.3582 19.8571 27.1194 20.5558 27.6632C21.2546 28.2069 22.1147 28.5021 23 28.5021C23.8854 28.5021 24.7455 28.2069 25.4443 27.6632C26.143 27.1194 26.6405 26.3582 26.858 25.5H29C29.2652 25.5 29.5196 25.3946 29.7071 25.2071C29.8947 25.0196 30 24.7652 30 24.5V17.5C30.0001 17.3645 29.9725 17.2305 29.919 17.106ZM9.00003 26.5C8.60447 26.5 8.21779 26.3827 7.88889 26.1629C7.55999 25.9432 7.30365 25.6308 7.15227 25.2654C7.0009 24.8999 6.96129 24.4978 7.03846 24.1098C7.11563 23.7219 7.30611 23.3655 7.58582 23.0858C7.86552 22.8061 8.22189 22.6156 8.60985 22.5384C8.99781 22.4613 9.39994 22.5009 9.7654 22.6522C10.1308 22.8036 10.4432 23.06 10.663 23.3889C10.8827 23.7178 11 24.1044 11 24.5C10.9995 25.0303 10.7886 25.5387 10.4137 25.9136C10.0387 26.2886 9.5303 26.4995 9.00003 26.5ZM23 11.5H25.34L27.484 16.5H23V11.5ZM23 26.5C22.6045 26.5 22.2178 26.3827 21.8889 26.1629C21.56 25.9432 21.3036 25.6308 21.1523 25.2654C21.0009 24.8999 20.9613 24.4978 21.0385 24.1098C21.1156 23.7219 21.3061 23.3655 21.5858 23.0858C21.8655 22.8061 22.2219 22.6156 22.6098 22.5384C22.9978 22.4613 23.3999 22.5009 23.7654 22.6522C24.1308 22.8036 24.4432 23.06 24.663 23.3889C24.8827 23.7178 25 24.1044 25 24.5C24.9995 25.0303 24.7886 25.5387 24.4137 25.9136C24.0387 26.2886 23.5303 26.4995 23 26.5ZM28 23.5H26.858C26.6378 22.6434 26.1395 21.8842 25.4413 21.3413C24.7431 20.7983 23.8845 20.5025 23 20.5V18.5H28V23.5Z" fill="black"/>
+                        </svg>
+                    <h3>Fast & Free Shipping</h3>
+                    <p>Donec vitae odio quis nisl dapibus malesuada. 
+                       Nullam ac aliquet velit. Aliquam vulputate.
+                    </p>
+                </div>
+                <div class="block">
+                    <svg width="48" height="38" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="32" cy="21.5" r="16" fill="#f8d2c1bd"/>
+                        <path d="M16 28.5C22.6274 28.5 28 23.1274 28 16.5C28 9.87258 22.6274 4.5 16 4.5C9.37258 4.5 4 9.87258 4 16.5C4 23.1274 9.37258 28.5 16 28.5Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M24 8.5L19.3 13.2M19.3 13.2C21.0973 14.9987 21.0973 18.0027 19.3 19.8M19.3 13.2C17.5027 11.4027 14.4987 11.4027 12.7 13.2M8 24.5L12.7 19.8M12.7 19.8C10.9027 18.0027 10.9027 14.9987 12.7 13.2M12.7 19.8C14.4973 21.5973 17.5013 21.5973 19.3 19.8M8 8.5L12.7 13.2M24 24.5L19.3 19.8" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    <h3>Easy to Shop</h3>
+                    <p>Donec vitae odio quis nisl dapibus malesuada. 
+                       Nullam ac aliquet velit. Aliquam vulputate.
+                    </p>
+                </div>
+                <div class="block">
+                    <svg width="48" height="38" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="32" cy="21.5" r="16" fill="#f8d2c1bd"/>
+                        <path d="M4.70667 15.7933V18.6173C4.70649 19.3589 4.85242 20.0933 5.13611 20.7786C5.4198 21.4638 5.83571 22.0865 6.36006 22.6109C6.88442 23.1354 7.50697 23.5515 8.19214 23.8353C8.87731 24.1192 9.61169 24.2653 10.3533 24.2653H27.2933M4.70667 8.73462H21.6467C22.3884 8.73444 23.1229 8.88041 23.8083 9.16419C24.4936 9.44797 25.1163 9.86399 25.6408 10.3885C26.1653 10.913 26.5813 11.5357 26.8651 12.221C27.1489 12.9063 27.2948 13.6409 27.2947 14.3826V17.2053" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M23.0587 20.0293L27.2947 24.264L23.0587 28.5M8.94132 12.9707L4.70532 8.73467L8.94132 4.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    <h3>24/7 Support</h3>
+                    <p>Donec vitae odio quis nisl dapibus malesuada. 
+                       Nullam ac aliquet velit. Aliquam vulputate.
+                    </p>
+                </div>
+                <div class="block">
+                    <svg width="48" height="38" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="32" cy="21.5" r="16" fill="#f8d2c1bd"/>
+                        <path d="M4.66666 15.1666V19.1666C4.66666 24.1946 4.66666 26.7093 6.22932 28.2706C7.79066 29.8333 10.3053 29.8333 15.3333 29.8333H16.6667C21.6947 29.8333 24.2093 29.8333 25.7707 28.2706C27.3333 26.7093 27.3333 24.1946 27.3333 19.1666V15.1666" stroke="black" stroke-width="1.5"/>
+                        <path d="M12.6666 3.16663H19.3333L20.2026 11.856C20.2599 12.4423 20.1939 13.0342 20.0087 13.5935C19.8236 14.1528 19.5234 14.6671 19.1276 15.1035C18.7318 15.5399 18.249 15.8886 17.7104 16.1272C17.1718 16.3658 16.5891 16.4891 16 16.4891C15.4108 16.4891 14.8282 16.3658 14.2896 16.1272C13.7509 15.8886 13.2682 15.5399 12.8723 15.1035C12.4765 14.6671 12.1764 14.1528 11.9912 13.5935C11.8061 13.0342 11.74 12.4423 11.7973 11.856L12.6666 3.16663Z" stroke="black" stroke-width="1.5"/>
+                        <path d="M4.43999 7.63463C4.67732 6.44796 4.79599 5.85463 5.03732 5.37329C5.28878 4.87201 5.64285 4.42921 6.07653 4.07363C6.51021 3.71805 7.01381 3.45763 7.55466 3.30929C8.07466 3.16663 8.67999 3.16663 9.89066 3.16663H12.6667L11.7 12.8266C11.649 13.3795 11.4857 13.9161 11.2201 14.4036C10.9545 14.8911 10.5921 15.3193 10.1553 15.662C9.71847 16.0046 9.2163 16.2545 8.67953 16.3963C8.14277 16.5382 7.5827 16.569 7.03362 16.4868C6.48454 16.4047 5.95801 16.2113 5.48624 15.9186C5.01448 15.6259 4.60742 15.24 4.28997 14.7846C3.97253 14.3291 3.75139 13.8136 3.64008 13.2697C3.52878 12.7258 3.52966 12.1649 3.64266 11.6213L4.43999 7.63463ZM27.56 7.63463C27.3227 6.44796 27.204 5.85463 26.9627 5.37329C26.7112 4.87201 26.3571 4.42921 25.9235 4.07363C25.4898 3.71805 24.9862 3.45763 24.4453 3.30929C23.9253 3.16663 23.32 3.16663 22.1093 3.16663H19.3333L20.3 12.8266C20.351 13.3795 20.5143 13.9161 20.7799 14.4036C21.0455 14.8911 21.4078 15.3193 21.8447 15.662C22.2815 16.0046 22.7837 16.2545 23.3204 16.3963C23.8572 16.5382 24.4173 16.569 24.9664 16.4868C25.5154 16.4047 26.042 16.2113 26.5137 15.9186C26.9855 15.6259 27.3926 15.24 27.71 14.7846C28.0274 14.3291 28.2486 13.8136 28.3599 13.2697C28.4712 12.7258 28.4703 12.1649 28.3573 11.6213L27.56 7.63463Z" stroke="black" stroke-width="1.5"/>
+                        <path d="M12.6667 29.1666V25.1666C12.6667 23.9199 12.6667 23.2973 12.9347 22.8333C13.1102 22.5292 13.3626 22.2768 13.6667 22.1013C14.1307 21.8333 14.7533 21.8333 16 21.8333C17.2467 21.8333 17.8693 21.8333 18.3333 22.1013C18.6373 22.2768 18.8898 22.5292 19.0653 22.8333C19.3333 23.2973 19.3333 23.9199 19.3333 25.1666V29.1666" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                        
+                    <h3>Hassle Free Returns</h3>
+                    <p>Donec vitae odio quis nisl dapibus malesuada. 
+                       Nullam ac aliquet velit. Aliquam vulputate.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="why_choose_us_imgs">
+            <img src="../statics/imgs/Frame 1618868746.png" alt="" srcset="" class="dots-img">
+            <img src="../statics/imgs/Frame 1618868744.png" alt="" srcset="" class="main-img">
+
+        </div>
+       
+    </section>
+    <section class="container contacts" id="contacts">
+        <div class="form">
+            <center><h2>Do you have any inquiries</h2></center>
+            <center><p>Fill up form below, our team will get back soon</p></center>
+            <form action="">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Example@gmail.com" required>
+                <input type="number" placeholder="Phone">
+                <input type="text" placeholder="Subject">
+                <textarea name="message" id="" cols="30" rows="8" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="contacts-cards">
+            <div class="card">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="23.5" fill="#F8F8F8" stroke="#ECECEC"/>
+                    <path d="M15 17V16.25C14.8011 16.25 14.6103 16.329 14.4697 16.4697C14.329 16.6103 14.25 16.8011 14.25 17H15ZM33 17H33.75C33.75 16.8011 33.671 16.6103 33.5303 16.4697C33.3897 16.329 33.1989 16.25 33 16.25V17ZM15 17.75H33V16.25H15V17.75ZM32.25 17V29H33.75V17H32.25ZM31 30.25H17V31.75H31V30.25ZM15.75 29V17H14.25V29H15.75ZM17 30.25C16.31 30.25 15.75 29.69 15.75 29H14.25C14.25 29.7293 14.5397 30.4288 15.0555 30.9445C15.5712 31.4603 16.2707 31.75 17 31.75V30.25ZM32.25 29C32.25 29.69 31.69 30.25 31 30.25V31.75C31.7293 31.75 32.4288 31.4603 32.9445 30.9445C33.4603 30.4288 33.75 29.7293 33.75 29H32.25Z" fill="#858585"/>
+                    <path d="M15 17L24 26L33 17" stroke="#858585" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                    <h3>Email Us</h3>
+                    <a href="mailto:">no-reply@luxury.com</a>
+                    
+            </div>
+            <div class="card">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="23.5" fill="#F8F8F8" stroke="#ECECEC"/>
+                    <path d="M18.7886 14.267L20.2114 13.8385C20.8591 13.6431 21.5558 13.69 22.1714 13.9706C22.787 14.2512 23.2795 14.7463 23.5568 15.3633L24.4423 17.333C24.6809 17.8637 24.7473 18.4557 24.6323 19.026C24.5174 19.5963 24.2267 20.1163 23.8011 20.513L22.254 21.9556C22.2349 21.9735 22.2192 21.9947 22.2077 22.0182C22.0457 22.349 22.2917 23.2327 23.0623 24.5682C23.9314 26.0733 24.6026 26.6682 24.9137 26.5765L26.9443 25.955C27.5004 25.7852 28.0957 25.7937 28.6467 25.9792C29.1978 26.1647 29.677 26.518 30.0171 26.9896L31.2754 28.7322C31.6705 29.2793 31.8535 29.9513 31.7904 30.6232C31.7273 31.2951 31.4225 31.9212 30.9326 32.3853L29.85 33.4096C29.4735 33.7662 29.0164 34.0264 28.5176 34.168C28.0188 34.3097 27.4931 34.3286 26.9854 34.223C23.9708 33.5956 21.27 31.1682 18.8597 26.9939C16.4486 22.817 15.6968 19.2599 16.6654 16.3345C16.8276 15.8447 17.1052 15.4011 17.4749 15.0413C17.8446 14.6815 18.2946 14.4159 18.7886 14.267ZM19.1614 15.4979C18.865 15.5872 18.5945 15.7465 18.3726 15.9623C18.1508 16.1782 17.9842 16.4443 17.8868 16.7382C17.052 19.259 17.7283 22.4613 19.974 26.351C22.218 30.2382 24.6506 32.4239 27.2486 32.9639C27.5532 33.0271 27.8686 33.0157 28.1678 32.9306C28.4671 32.8455 28.7413 32.6893 28.9671 32.4753L30.0488 31.4519C30.3128 31.2021 30.477 30.8649 30.5111 30.5031C30.5451 30.1413 30.4467 29.7794 30.234 29.4847L28.9757 27.7413C28.7926 27.4874 28.5346 27.2972 28.238 27.1973C27.9413 27.0974 27.6208 27.0928 27.3214 27.1842L25.2857 27.8073C24.1594 28.1425 23.1 27.2039 21.9497 25.2102C20.9751 23.5233 20.6374 22.3045 21.054 21.4533C21.1346 21.2887 21.2443 21.1405 21.378 21.0153L22.9251 19.5727C23.1544 19.3591 23.311 19.0791 23.3729 18.7719C23.4349 18.4648 23.3991 18.1459 23.2706 17.8602L22.3843 15.8913C22.2349 15.559 21.9697 15.2923 21.6382 15.1412C21.3066 14.9901 20.9314 14.9649 20.5826 15.0702L19.1614 15.4979Z" fill="#858585"/>
+                    </svg>
+                    
+                    
+                    <h3>Call Us</h3>
+                    <a href="tel:">+250-791-902-159</a>
+                    
+            </div>
+            <div class="card">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="23.5" fill="#F8F8F8" stroke="#ECECEC"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M24 31.54L24.631 30.829C25.347 30.009 25.991 29.231 26.564 28.491L27.037 27.867C29.012 25.206 30 23.094 30 21.533C30 18.201 27.314 15.5 24 15.5C20.686 15.5 18 18.201 18 21.533C18 23.094 18.988 25.206 20.963 27.867L21.436 28.491C22.2534 29.5384 23.1087 30.5547 24 31.54Z" stroke="#858585" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M24 24C25.3807 24 26.5 22.8807 26.5 21.5C26.5 20.1193 25.3807 19 24 19C22.6193 19 21.5 20.1193 21.5 21.5C21.5 22.8807 22.6193 24 24 24Z" stroke="#858585" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                    <h3>Email Us</h3>
+                    <a href="mailto:">no-reply@luxury.com</a>
+                    
+            </div>
+        </div>
+     
+    </section>
+
+    <!-- footer section starts -->
+    <footer class="container">
+        <div class="footer_menu">
+            <div class="logo">
+                <img src="../statics/imgs/Luxury-white.png" alt=""><br><br>
+                <p>Turn your room with luxury into a lot more <br> minimalist and modern.</p>
+            </div>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about us</a></li>
+                <li><a href="#services">sevices</a></li>
+                <li><a href="Blogs">blogs</a></li>
+            </ul>
+        </div>
+        <span>&copy;2024 Luxury. All rights reserved</span>
+    </footer>
+
+
+<script src="../statics/app.js"></script>
+</body>
+</html>
